@@ -30,21 +30,29 @@ $ git clone https://github.com/drygdryg/rtl8188eus.git
 ```
 $ cd rtl8188eus.git
 ```
-## Acess root
+## Access root
 ```
 $ sudo -i
 ```
 
-## 
+## Add r8188eu blacklist
 ```
 # echo "blacklist r8188eu" > "/etc/modprobe.d/realtek.conf"
 # exit
 ```
 
+## Execute Script dkmks-install.sh
 ```
 $ sudo ./dkms-install.sh
 ```
 
+## Reboot System
 ```
 $ reboot
 ```
+
+## Init mode monitor 
+```
+$ sudo 
+```
+
