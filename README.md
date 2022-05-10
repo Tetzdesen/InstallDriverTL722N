@@ -53,6 +53,7 @@ $ reboot
 
 ## Init mode monitor 
 ```
-$ sudo 
+$ sudo ip link set interface down
+$ sudo iw dev interface set type monitor
 ```
 
