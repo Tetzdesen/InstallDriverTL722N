@@ -5,12 +5,6 @@
 ```
 $ sudo apt update
 ```
-
-##  Upgrade
-```
-$ sudo apt upgrade
-```
-
 ## Install dependecies
 
 ```
@@ -41,7 +35,7 @@ $ sudo -i
 # exit
 ```
 
-## Execute Script dkmks-install.sh
+## Execute script dkms-install.sh
 ```
 $ sudo ./dkms-install.sh
 ```
